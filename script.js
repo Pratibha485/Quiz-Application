@@ -1,29 +1,29 @@
 const questions=[
     {
-        question: "Which is the smallest country in the world?",
+        question: "What is the correct syntax to write an HTML comment?",
         answers:[
-            {text:"Vatican City",correct:true},
-            {text:"Bhutan",correct:false},
-            {text:"Nepal",correct:false},
-            {text:"Sri Lanka",correct:false},
+            {text:"<!--comment-->",correct:true},
+            {text:"//comment",correct:false},
+            {text:"<--comment-->",correct:false},
+            {text:"/*comment&/",correct:false},
         ]
     },
     {
-        question: "Which is the largest desert in the world?",
+        question: " Which of the following tag is used for inserting the largest heading in HTML?",
         answers:[
-            {text:"Kalahari",correct:false},
-            {text:"Gobi",correct:false},
-            {text:"Sahara",correct:false},
-            {text:"Antarctica",correct:true},
+            {text:"<h3>",correct:false},
+            {text:"<h2>",correct:false},
+            {text:"<h4>",correct:false},
+            {text:"<h1>",correct:true},
         ]
     },
     {
-        question: "Which is the largest animal in the world?",
+        question: " Which of the following tag is used to make the underlined text?",
         answers:[
-            {text:"shark",correct:false},
-            {text:"Blue Whale",correct:true},
-            {text:"Elephant",correct:false},
-            {text:"Giraffe",correct:false},
+            {text:"<i>",correct:false},
+            {text:"<ul>",correct:false},
+            {text:"<u>",correct:true},
+            {text:"<pre>",correct:false},
         ]
     },
     {
